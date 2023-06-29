@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+
+    font-family: 'Ysabeau SC', sans-serif;
+    font-size: 14px;
+    color: #000;
+    -webkit-font-smoothing: antialiased;
+    background-color: #fff;
+
+    width: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+
+
+
+
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.main{
+    nav{
+        a{
+            cursor: pointer;
+            color: #000;
+        }
+    }
+
+    #prime{
+        .img-container{
+            max-width:500px;
+
+            img{
+                max-width: 100%;
+                height: auto;
+            }
+        }
+
+        P{
+            font-size: 18px;
+        }
+    }
+}
