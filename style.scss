@@ -40,7 +40,7 @@ p {
     margin: 20px 0;
 }
 
-.padding-10-0{
+.padding-10-0 {
     padding: 10px 0;
 }
 
@@ -96,7 +96,7 @@ p {
     .about {
         padding: 20px 0 40px 0;
 
-        
+
 
         .img-container {
             max-width: 300px;
@@ -119,8 +119,39 @@ p {
 
     }
 
-    .portfolio{
+    .portfolio {
         padding: 40px 0;
         background-color: var(--bs-gray-400);
+
+        .card {
+            height: 100%;
+
+                a {
+                    display: flex;
+                    justify-content: center;
+                    align-self: flex-end;
+                }
+        }
+    }
+
+    .contacts{
+        p{
+            font-size: 18px;
+        }
+
+        .user-link{
+            text-decoration: none;
+            color: #000;
+            font-size: 18px;
+            cursor: pointer;
+            transition: .3s linear;
+            padding: 0 0 20px 0;
+            margin-bottom: 20px;
+
+            &:hover, &:active{
+                color: var(--bs-gray-800);
+                text-decoration: underline;
+            }
+        }
     }
 }

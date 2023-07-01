@@ -68,7 +68,7 @@
                     </a>
                   </li>
 
-                  <button type="button" class="btn btn-info">Связаться</button>
+                  <a href="#connect" class="btn btn-info">Связаться</a>
                 </ul>
               </div>
             </div>
@@ -90,7 +90,7 @@
               adakta
               käläylin tarakas-tarakasyn arttak kullanyp, taragylysyndy saqlaytka jana mahardy aparga däl külgen
               usuldukta külgenim kechirip tez.</p>
-            <div class="btn btn-info gy-5">Связаться</div>
+            <a class="btn btn-info mt-3" href="#connect">Связаться</a>
           </div>
         </div>
       </div>
@@ -161,48 +161,96 @@
     <div class="portfolio" id="portfolio">
       <div class="container">
         <div class="row">
-          <div class="col-md-3">
+          <div class="col-lg-3 col-sm-6">
             <div class="card">
-              <img src="..." class="card-img-top">
+              <img src="img/portfolio/pentagon.jpg" class="card-img-top">
               <div class="card-body">
-                <h5 class="card-title">fsdfdsf</h5>
-                <p class="card-text">fvgdfgdfgdfgsdfgdfgdfvgbr</p>
-                <a href="#" class="btn btn-primary">fwfe</a>
+                <h5 class="card-title">Взлом пентагона</h5>
+                <p class="card-text">Мы взломали пентагон просто ради прикола, потому что был такой мем.</p>
+                <a href="#" class="btn btn-primary mt-3">Пруфов нет</a>
               </div>
             </div>
           </div>
 
-          <div class="col-md-3">
+          <div class="col-lg-3 col-sm-6 gy-5 gy-sm-0">
             <div class="card">
-              <img src="..." class="card-img-top">
+              <img src="img/portfolio/ass.jpg" class="card-img-top">
               <div class="card-body">
-                <h5 class="card-title">fsdfdsf</h5>
-                <p class="card-text">fvgdfgdfgdfgsdfgdfgdfvgbr</p>
-                <a href="#" class="btn btn-primary">fwfe</a>
+                <h5 class="card-title">Взлом жопы</h5>
+                <p class="card-text">Взлом жопы прошёл успешно. Наслаждайтесь читами на жопу.</p>
+                <a target="_blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&themeRefresh=1"
+                  class="btn btn-primary  mt-3">Читы на жопу</a>
               </div>
             </div>
           </div>
 
-          <div class="col-md-3">
+          <div class="col-lg-3 col-sm-6 gy-5 gy-lg-0">
             <div class="card">
-              <img src="..." class="card-img-top">
+              <img src="img/portfolio/pic.jpg" class="card-img-top">
               <div class="card-body">
-                <h5 class="card-title">fsdfdsf</h5>
-                <p class="card-text">fvgdfgdfgdfgsdfgdfgdfvgbr</p>
-                <a href="#" class="btn btn-primary">fwfe</a>
+                <h5 class="card-title">Картинка</h5>
+                <p class="card-text">Просто забавная картинка.</p>
+                <a href="#" class="btn btn-primary  mt-3">Пон</a>
               </div>
             </div>
           </div>
 
-          <div class="col-md-3">
+          <div class="col-lg-3 col-sm-6 gy-5 gy-lg-0">
             <div class="card">
-              <img src="..." class="card-img-top">
+              <img src="img/portfolio/cat.jpg" class="card-img-top">
               <div class="card-body">
-                <h5 class="card-title">fsdfdsf</h5>
-                <p class="card-text">fvgdfgdfgdfgsdfgdfgdfvgbr</p>
-                <a href="#" class="btn btn-primary">fwfe</a>
+                <h5 class="card-title">Кiт</h5>
+                <p class="card-text">Ты маму мав?</p>
+                <a href="#" class="btn btn-primary  mt-3">Мав</a>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contacts pt-5 pb-5" id="contacts">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2 class="text-center mb-3">Наши контакты</h2>
+
+            <div class="mb-5 mt-5">
+              <p>Электронная почта:</p>
+              <a href="mailto:anonimus@mail.ru" class="user-link">anonimus@mail.ru</a>
+            </div>
+
+            <div class="mb-5">
+              <p>Номер телефона:</p>
+              <a href="callto:88005553535" class="user-link">88005553535</a>
+            </div>
+          </div>
+
+          <div class="col-md-6" id="connect">
+            <h2 class="text-center mb-3">Заполните форму, и мы свяжемся с вами</h2>
+            <form>
+              <div class="mb-3 form-floating">
+                <input required type="email" class="form-control form-control-lg" id="inputEmail"
+                  aria-describedby="emailHelp" placeholder="Адрес электронной почты">
+                <label for="inputEmail">Адрес электронной почты</label>
+                <div id="emailHelp" class="form-text">Мы передадим вашу почту мошенникам</div>
+              </div>
+
+              <div class="mb-3 form-floating">
+                <input required type="password" class="form-control-lg form-control" id="inputPass"
+                  aria-describedby="passHelp" placeholder="Номер карты">
+                <label for="inputPass"> Номер карты</label>
+                <div class="form-text" id="passHelp">Введите номер вашей банковской карты и CVV код</div>
+              </div>
+
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-checkbox-input" id="check">
+                <label class="form-check-label" for="check">я согласен на расслыку спама и кражу денег с моей
+                  карты</label>
+              </div>
+
+              <button type="submit" class="btn btn-primary">Отправить</button>
+            </form>
           </div>
         </div>
       </div>

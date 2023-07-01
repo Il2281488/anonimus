@@ -100,3 +100,33 @@ p {
   padding: 40px 0;
   background-color: var(--bs-gray-400);
 }
+.main .portfolio .card {
+  height: 100%;
+}
+.main .portfolio .card a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+.main .contacts p {
+  font-size: 18px;
+}
+.main .contacts .user-link {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  cursor: pointer;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+  padding: 0 0 20px 0;
+  margin-bottom: 20px;
+}
+.main .contacts .user-link:hover, .main .contacts .user-link:active {
+  color: var(--bs-gray-800);
+  text-decoration: underline;
+}
