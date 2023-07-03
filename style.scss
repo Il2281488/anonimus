@@ -51,6 +51,8 @@ p {
 
 .main {
     nav {
+        width: 100%;
+        z-index: 2000;
         a {
             cursor: pointer;
             color: #000;
@@ -145,12 +147,24 @@ p {
             font-size: 18px;
             cursor: pointer;
             transition: .3s linear;
-            padding: 0 0 20px 0;
             margin-bottom: 20px;
+
+            position: relative;
+            left: 40px;
 
             &:hover, &:active{
                 color: var(--bs-gray-800);
                 text-decoration: underline;
+            }
+        }
+
+        .num-of-card{
+            position: relative;
+
+            .eye-btn{
+                position: absolute;
+                top: 10px;
+                right: 10px;
             }
         }
     }

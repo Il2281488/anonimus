@@ -47,6 +47,10 @@ p {
           justify-content: center;
 }
 
+.main nav {
+  width: 100%;
+  z-index: 2000;
+}
 .main nav a {
   cursor: pointer;
   color: #000;
@@ -123,10 +127,19 @@ p {
   cursor: pointer;
   -webkit-transition: 0.3s linear;
   transition: 0.3s linear;
-  padding: 0 0 20px 0;
   margin-bottom: 20px;
+  position: relative;
+  left: 40px;
 }
 .main .contacts .user-link:hover, .main .contacts .user-link:active {
   color: var(--bs-gray-800);
   text-decoration: underline;
+}
+.main .contacts .num-of-card {
+  position: relative;
+}
+.main .contacts .num-of-card .eye-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
 }
